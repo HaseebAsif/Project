@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+   <!-- Navbar Here  -->
+        <nav>
+            
+             <h1> Car Experts </h1>
+            <ul>
+                <li>Used cars</a></li>
+                <li>New cars</li>
+                <li>Car reviews</li>
+                <li>About us</li>
+                <button>Login</button>
+            </ul>
+        </nav>
+<!-- Carousal and Lft Menu -->
+    <section class="section-1">
+        <div class="select-menu">
+       <h3>Find Your Car Here</h3>
+            <div class="menu">
+
+                <label style="color: black;">Select Make</label>
+                <select class="select1">
+                    
+                    <option value="John">John</option>
+                    <option value="Mac">Mac</option>
+                    
+                </select>
+            </div>
+               <div class="menu">
+
+                <label style="color: black;">Select Model</label>
+                <select class="select1">
+                    
+                    <option value="John">John</option>
+                    <option value="Mac">Mac</option>
+                    
+                </select>
+            </div>
+            </div>
+        <div class="carousal-container">
+            <div class="slideshow-container">
+
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819__340.jpg" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://cdn.pixabay.com/photo/2016/02/17/19/08/lotus-1205631__340.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+
+</div>
+
+        </div>
+    </section>
+    <!-- Second Section -->
+    <section class="secound-section">
+        <div class="images2">
+            <h2 class="car-heading">Recently Added</h2>
+            <div>
+
+                <img src="https://cdn.pixabay.com/photo/2014/06/04/16/36/man-362150__340.jpg" alt="">
+             <p class="car-text">
+                   Ferrari 2008: 70,000 Miles</p>
+           
+            </div>
+<div>
+
+    <img style="margin-top: 20px" src="https://cdn.pixabay.com/photo/2014/06/04/16/36/man-362150__340.jpg" alt="">
+             <p class="car-text">   Ferrari 2008: 70,000 Miles</p>
+
+</div>
+<div>
+
+    <img  style="margin-top: 20px" src="https://cdn.pixabay.com/photo/2014/06/04/16/36/man-362150__340.jpg" alt="">
+             <p class="car-text">   Ferrari 2008: 70,000 Miles</p>
+
+</div>
+</div>
+ <div class="carousel">
+    <ul class="slides">
+      <input type="radio" name="radio-buttons" id="img-1" checked />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Timisoara_-_Regional_Business_Centre.jpg">
+        </div>
+        <div class="carousel-controls">
+          <label for="img-3" class="prev-slide">
+            <span>&lsaquo;</span>
+          </label>
+          <label for="img-2" class="next-slide">
+            <span>&rsaquo;</span>
+          </label>
+        </div>
+      </li>
+      <input type="radio" name="radio-buttons" id="img-2" />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="https://content.r9cdn.net/rimg/dimg/db/02/06b291e8-city-14912-171317ad83a.jpg?width=1750&height=1000&xhint=3040&yhint=2553&crop=true">
+        </div>
+        <div class="carousel-controls">
+          <label for="img-1" class="prev-slide">
+            <span>&lsaquo;</span>
+          </label>
+          <label for="img-3" class="next-slide">
+            <span>&rsaquo;</span>
+          </label>
+        </div>
+      </li>
+      <input type="radio" name="radio-buttons" id="img-3" />
+      <li class="slide-container">
+        <div class="slide-image">
+          <img src="https://speakzeasy.files.wordpress.com/2015/05/twa_blogpic_timisoara-4415.jpg">
+        </div>
+        <div class="carousel-controls">
+          <label for="img-2" class="prev-slide">
+            <span>&lsaquo;</span>
+          </label>
+          <label for="img-1" class="next-slide">
+            <span>&rsaquo;</span>
+          </label>
+        </div>
+      </li>
+  
+    </ul>
+  </div>
+
+      
+    </section>
+    <section>
+        <form action="">
+            <h2>Heading Here</h2>
+<div class="inputs">
+    <div style="display: flex; flex-direction:column; margin-right: 20px;">
+
+        <label >Registration</label>
+        <input type="text" placeholder="Enter Registration code">
+    </div>
+    <div style="display: flex; flex-direction:column">
+
+
+        <label >Current Milaege</label>
+        <input type="password" placeholder="Enter Password">
+    </div>
+</div>
+            <button class="btn">Submit</button>
+        </form>
+    </section>
+ 
+
+    <script src="project.js">
+        
+    </script>
+</body>
+</html>
